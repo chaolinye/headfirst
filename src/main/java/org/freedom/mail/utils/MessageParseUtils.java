@@ -1,4 +1,4 @@
-package org.freedom.testflight.utils;
+package org.freedom.mail.utils;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

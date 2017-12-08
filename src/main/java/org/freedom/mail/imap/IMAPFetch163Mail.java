@@ -1,4 +1,4 @@
-package org.freedom.testflight.mail;
+package org.freedom.mail.imap;
 
 import com.sun.mail.imap.IMAPStore;
 

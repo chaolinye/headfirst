@@ -1,4 +1,4 @@
-package org.freedom.testflight.utils;
+package org.freedom.mail.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

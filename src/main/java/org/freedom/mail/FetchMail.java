@@ -1,6 +1,4 @@
-package org.freedom.testflight.mail;
-
-import org.freedom.testflight.imap.MessageFilter;
+package org.freedom.mail;
 
 import javax.mail.*;
 import java.util.ArrayList;
@@ -41,7 +39,7 @@ public abstract class FetchMail {
         return port;
     }
 
-    protected void connect() {
+    public void connect() {
         try {
             preConnect();
             connect(getSessionProperties());

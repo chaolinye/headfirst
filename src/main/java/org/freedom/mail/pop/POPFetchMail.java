@@ -1,4 +1,6 @@
-package org.freedom.testflight.mail;
+package org.freedom.mail.pop;
+
+import org.freedom.mail.FetchMail;
 
 import java.util.Properties;
 

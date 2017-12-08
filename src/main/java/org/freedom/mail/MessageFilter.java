@@ -1,4 +1,4 @@
-package org.freedom.testflight.imap;
+package org.freedom.mail;
 
 import javax.mail.Message;
 

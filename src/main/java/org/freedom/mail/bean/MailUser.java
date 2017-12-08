@@ -1,4 +1,4 @@
-package org.freedom.testflight.bean;
+package org.freedom.mail.bean;
 
 public class MailUser {
     private String account;

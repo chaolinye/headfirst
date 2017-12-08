@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 public class TestFlightMain {
 
     public static void main(String[] args) throws IOException {
+        
         String fileName = "/Users/chaolinye/Downloads/emails.xlsx";
         List<String[]> accountPasswords = POIUtils.readExcel(fileName);
         System.out.println("the number of account:" + accountPasswords.size());
@@ -30,7 +31,7 @@ public class TestFlightMain {
         }
         System.out.println("the number of testFlightLinks:" + testFlightLinks.size());
         System.out.println(testFlightLinks);
-        if(testFlightLinks.size()==0){
+        if (testFlightLinks.size() == 0) {
             return;
         }
         String outputFileName = "/Users/chaolinye/Downloads/testflight-beta.xlsx";

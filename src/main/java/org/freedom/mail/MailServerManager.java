@@ -1,6 +1,6 @@
-package org.freedom.testflight.james;
+package org.freedom.mail;
 
-import org.freedom.testflight.bean.MailUser;
+import org.freedom.mail.bean.MailUser;
 
 import java.util.List;
 
